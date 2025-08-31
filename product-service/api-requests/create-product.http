@@ -2,9 +2,9 @@ POST http://localhost:8080/api/products
 Content-Type: application/json
 
 {
-    "name": "iPhone 11 Pro Max",
+    "name": "iPhone 6s",
     "description": "Latest Apple flagship phone in UK",
-    "price": 1000.00
+    "price": 400.00
 }
 
 
