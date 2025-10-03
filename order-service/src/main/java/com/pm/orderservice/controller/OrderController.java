@@ -15,8 +15,8 @@ public class OrderController {
     private final OrderService orderService;
 
     @PostMapping
-    public ResponseEntity<Order> placeOrder(@RequestBody OrderRequest orderRequest) {
+    public ResponseEntity<String> placeOrder(@RequestBody OrderRequest orderRequest) {
         Order savedOrder = orderService.placeOrder(orderRequest);
-        return ResponseEntity.ok(savedOrder);
+        return ResponseEntity.ok("✅ Order is placed successfully with ID: " + savedOrder.getOrderId());
     }
 }
