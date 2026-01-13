@@ -1,1 +1,3 @@
-GET http://localhost:8080/api/products
+GET http://localhost:8080/api/products/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYWNrZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTc2ODMyMDY2NSwiZXhwIjoxNzY4MzI0MjY1fQ.me5IwtqQ7rREgRzzd4hLRPGDZO4zXh1tl7uJHGoK0Es
+

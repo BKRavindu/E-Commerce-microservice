@@ -1,5 +1,7 @@
-GET http://localhost:8082/api/inventory?skuCode=IPHONE-15&quantity=1
+GET http://localhost:9000/api/inventory?skuCode=IPHONE-15&quantity=1
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYWNrZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTc2ODMyMDY2NSwiZXhwIjoxNzY4MzI0MjY1fQ.me5IwtqQ7rREgRzzd4hLRPGDZO4zXh1tl7uJHGoK0Es
+
 
 
 
