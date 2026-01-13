@@ -1,9 +1,11 @@
-POST http://localhost:8081/api/orders
+POST http://localhost:9000/api/orders
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYWNrZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTc2ODMyMDY2NSwiZXhwIjoxNzY4MzI0MjY1fQ.me5IwtqQ7rREgRzzd4hLRPGDZO4zXh1tl7uJHGoK0Es
+
 
 {
     "skuCode": "IPHONE-15",
-    "quantity": 41,
+    "quantity": 1,
     "price": 600.00
 }
 

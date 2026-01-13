@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  mysql:
+    image:  mysql:latest
+    container_name: user_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: userdb
+    ports:
+      - "3309:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+
+
